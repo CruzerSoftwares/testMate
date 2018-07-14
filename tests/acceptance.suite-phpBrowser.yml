@@ -8,5 +8,5 @@ actor: AcceptanceTester
 modules:
     enabled:
         - PhpBrowser:
-            url: https://www.commloan.com
+            url: https://www.commloan-staging.com
         - \Helper\Acceptance

@@ -17,8 +17,8 @@ class LoginCest
         $I->dontSeeElement('#error-message');
         // $I->dontSeeInPageSource('<meta name="robots">');
         $I->amGoingTo('Login form with valid credentials');
-        $I->fillField('#username', 'khushbu.chauhan-1');
-        $I->fillField('#password', 'LAf63Tuz');
+        $I->fillField('#username', 'peeyush.dayal');
+        $I->fillField('#password', 'peeyush.dayal');
         $I->click('sign in');
         $I->dontSee('Form is filled incorrectly');
         // $I->seeElement('.notice');

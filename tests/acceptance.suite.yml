@@ -7,11 +7,14 @@
 actor: AcceptanceTester
 modules:
     enabled:
-        - PhpBrowser:
-             # url: 'http://localhost:8080/cruzer'
+        # - PhpBrowser:
+        #     url: 'https://www.commloan-staging.com/'
+        - WebDriver:
              url: 'https://www.commloan.com/'
              window_size: false # disabled in ChromeDriver
-             port: 9516
+             port: 9515
+             wait: 30
              browser: chrome
-             #capabilities:
-              #   chromeOptions: # additional chrome options
+             capabilities:
+              #  chromeOptions: # additional chrome options
+        - \Helper\Acceptance

@@ -13,7 +13,8 @@
         "phpunit/phpunit-selenium": "^4.1",
         "facebook/webdriver": "dev-master",
         "sebastian/phpcpd": "^3.0",
-        "phploc/phploc": "^4.0"
+        "phploc/phploc": "^4.0",
+        "phpstan/phpstan": "^0.10.1"
     },
     "license": "MIT",
     "authors": [
